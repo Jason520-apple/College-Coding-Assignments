@@ -34,7 +34,7 @@ public class SieveOfEratosthenes {
 		// Input validation
 		while (startValue <= 1) {
 			
-			System.out.println("Error, must enter a starting value that is greater than 1." +
+			System.out.println("Error, must enter a starting value that is greater than 1. " +
 							"Please enter another number: ");
 			startValue = input.nextInt();
 			
@@ -47,7 +47,7 @@ public class SieveOfEratosthenes {
 		// Input validation
 		while (stopValue <= 1) {
 					
-			System.out.println("Error, must enter a stop value that is greater than the start value." +
+			System.out.println("Error, must enter a stop value that is greater than the start value. " +
 									"Please enter another number: ");
 			stopValue = input.nextInt();
 					
@@ -61,7 +61,7 @@ public class SieveOfEratosthenes {
 			startValue = Integer.parseInt(args[0]);
 			if (startValue <= 1) {
 				
-				System.out.println("Error, must enter a starting value that is greater than 1." +
+				System.out.println("Error, must enter a starting value that is greater than 1. " +
 								"Please enter another number: ");
 				System.exit(0); // exit the program if number entered is invalid
 				
